@@ -1,0 +1,13 @@
+.idea
+.venv
+
+
+# Environments
+.venv
+.env
+env
+venv
+
+*.pyc
+*/__pycache__
+*.DS_STORE
