@@ -1,0 +1,7 @@
+###### Requirements without Version Specifiers ######`
+Flask
+
+
+###### Requirements with Version Specifiers ######`
+mongoengine == 0.22.1
+pymongo == 3.11.2
