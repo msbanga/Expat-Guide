@@ -1,0 +1,103 @@
+{
+  "countries": [
+    {
+      "code3": "ARE",
+      "currency": "AED",
+      "id": 5,
+      "name": "United Arab Emirates",
+      "ppp": "2.8061446966",
+      "happiness_index_rank": 25,
+      "crime_rate_rank": 133
+    },
+    {
+      "code3": "AUS",
+      "currency": "AUD",
+      "id": 8,
+      "name": "Australia",
+      "ppp": "1.6036190000",
+      "happiness_index_rank": 11,
+      "crime_rate_rank": 76
+    },
+    {
+      "code3": "CAN",
+      "currency": "CAD",
+      "id": 28,
+      "name": "Canada",
+      "ppp": "1.3554350000",
+      "happiness_index_rank": 14,
+      "crime_rate_rank": 82
+    },
+    {
+      "code3": "GBR",
+      "currency": "GBP",
+      "id": 56,
+      "name": "United Kingdom",
+      "ppp": "0.8020820000",
+      "happiness_index_rank": 17,
+      "crime_rate_rank": 65
+    },
+    {
+      "code3": "USA",
+      "currency": "USD",
+      "id": 165,
+      "name": "United States",
+      "ppp": "1.0000000000",
+      "happiness_index_rank": 19,
+      "crime_rate_rank": 56
+    },
+    {
+      "code3": "DEU",
+      "currency": "EUR",
+      "id": 41,
+      "name": "Germany",
+      "ppp": "0.8310600000",
+      "happiness_index_rank": 13,
+      "crime_rate_rank": 35
+    },
+    {
+      "code3": "SWE",
+      "currency": "SEK",
+      "id": 150,
+      "name": "Sweden",
+      "ppp": "9.5831630000",
+      "happiness_index_rank": 7,
+      "crime_rate_rank": 57
+    },
+    {
+      "code3": "LUX",
+      "currency": "EUR",
+      "id": 96,
+      "name": "Luxembourg",
+      "ppp": "1.0068190000",
+      "happiness_index_rank": 8,
+      "crime_rate_rank": 32
+    },
+    {
+      "code3": "ESP",
+      "currency": "EUR",
+      "id": 49,
+      "name": "Spain",
+      "ppp": "0.7363680000",
+      "happiness_index_rank": 27,
+      "crime_rate_rank": 100
+    },
+    {
+      "code3": "ITA",
+      "currency": "EUR",
+      "id": 78,
+      "name": "Italy",
+      "ppp": "0.8084060000",
+      "happiness_index_rank": 28,
+      "crime_rate_rank": 68
+    },
+    {
+      "code3": "IND",
+      "currency": "INR",
+      "id": 73,
+      "name": "India",
+      "ppp": "19.9780782714",
+      "happiness_index_rank": 139,
+      "crime_rate_rank": 67
+    }
+  ]
+}
