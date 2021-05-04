@@ -22,10 +22,10 @@ class Helper(object):
     # TODO : remove hardcoding
     def perform_operation(self, request_json):
         annual_salary = request_json.get('annualSalary')
-        happiness_factor = int(request_json.get('happinessQuotient')) / 10
-        tax_factor = int(request_json.get('taxStructure')) / 10
-        job_market_factor = int(request_json.get('racialInclusivity')) / 10
-        crime_freedom_factor = int(request_json.get('crimeFree')) / 10
+        happiness_factor = int(request_json.get('happinessQuotient', 10)) / 10
+        tax_factor = int(request_json.get('taxStructure', 10)) / 10
+        job_market_factor = int(request_json.get('racialInclusivity', 10)) / 10
+        crime_freedom_factor = int(request_json.get('crimeFree', 10)) / 10
 
         fn = os.path.join(os.path.dirname(__file__), 'Database.json')
         with open(fn) as f:

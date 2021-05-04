@@ -1,10 +1,10 @@
 from project import app
-from flask import request
+from flask import request, render_template
 
 
 @app.route('/')  # at the end point /
 def start():
-    return 'Welcome Expat!'
+    return render_template("home.html")
 
 
 @app.route('/countries')  # at the end point /
@@ -14,9 +14,10 @@ def get_countries():
     response = helper.get_countries()
     return response
 
-@app.route('/relevant_countries')
+
+@app.route('/relevant_countries', methods=['GET', 'POST'])
 def options():
-    args = request.args
+    args = request.form
     from project.helpers.helper import Helper
     helper = Helper()
     response = helper.perform_operation(args)
