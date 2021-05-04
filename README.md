@@ -11,6 +11,9 @@ Are you also confused about the pay-scale variations at different countries?
 Dont worry! We've been at the same situation and we are trying to solve this problem.
 This all-in-one guide in the form of a website helps professionals looking for foreign job opportunities.
 
+
+![Expat-Guide](expat.jpg)
+
 🚧  **Disclaimer**: This is under active development currently. Watch this space for updates.
 
 ## What is `Expat-Guide`?
